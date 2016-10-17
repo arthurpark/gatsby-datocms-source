@@ -1,0 +1,1 @@
+# GatsbyJS DatoCMS source plugin

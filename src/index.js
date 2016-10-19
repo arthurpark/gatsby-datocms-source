@@ -190,9 +190,11 @@ export default async function bootDatoCms(prefix, config) {
   });
 
   return {
-    type: GraphQLDatoRootType,
-    resolve() {
-      return dato;
+    [prefix]: {
+      type: GraphQLDatoRootType,
+      resolve() {
+        return dato;
+      },
     },
   };
 }

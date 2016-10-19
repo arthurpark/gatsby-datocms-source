@@ -53,7 +53,6 @@
   "dependencies": {
     "babel-core": "^6.0.0",
     "datocms-client": "0.2.8",
-    "graphql": "0.7.2",
     "humps": "1.1.0"
   }
 }
